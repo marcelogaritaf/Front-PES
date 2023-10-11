@@ -29,7 +29,7 @@ const sistemaRoutes:Routes=[
     AsignarComponent,
     OficinasComponent,
     DesignadasComponent,
-    RegistroAsignarComponent
+    RegistroAsignarComponent,
   ],
   imports: [
     BrowserModule,
