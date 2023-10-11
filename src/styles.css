@@ -5,13 +5,14 @@
     padding: 0;
 }
 html{
-    height: 800px;
+    height: 1000px;
 }
 body{
     background-image: url(./assets/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    width: 100%;
 }
 :root{
     font-size: 15px;
@@ -20,7 +21,7 @@ body{
 }
 @media  screen and (max-width:550px) {
     html{
-        height: 1500px;
-        width: 800px;
+        height: 800px;
     }
+    
 }
