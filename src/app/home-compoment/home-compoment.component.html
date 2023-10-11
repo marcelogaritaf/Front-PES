@@ -1,1 +1,55 @@
-<h1>hola buenos fias</h1>
+<div class="buscador">
+    <button><i class="fa-solid fa-magnifying-glass" style="color: #d9f9f9;"></i>  Buscar Articulo</button>
+    <input type="text" placeholder="Codigo del articulo"> 
+    <button (click)="agregar();"><i class="fa-solid fa-circle-plus" style="color: #d9f9f9;"></i>  Agregar Articulo</button>
+</div>
+<div class="tableData">
+    <table class="mainData">
+        <thead>
+            <tr>
+              <th>Id Compilado</th>
+              <th>Oficina</th>
+              <th>Area</th>
+              <th>Codigo Programa</th>
+              <th>Codigo Subpartida</th>
+              <th>Codigo Articulo</th>
+              <th>Cantidad</th>
+              <th>Costo Unidad</th>
+              <th>Monto total</th>
+              <th>Descripción</th>
+              <th>Ejecución</th>
+              <th>Prioridad</th>
+              <th>Tipo Tramite</th>
+              <th>Numero Contrato</th>
+              <th>Certificación</th>
+              <th>Numero SC UC/UA</th>
+              <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Carlos</td>
+                <td>Torres Paredes</td>
+                <td>23</td>
+                <td>34534624</td>
+                <td>mmmdmdmd</td>
+                <td>dhdhddh</td>
+                <td>hdhdhhdhdh</td>
+                <td>hdhdhhdhd</td>
+                <td>jdjdjd</td>
+                <td>gscsycguc</td>
+                <td>uusucsubc</td>
+                <td>scsccubc</td>
+                <td>huuccb</td>
+                <td>hssbb</td>
+                <td>hdhdhhd</td>
+                <td>
+                    <button><i class="fa-solid fa-trash"></i></button>
+                    <button> <i class="fa-solid fa-pen-to-square"></i></button>
+                    <button (click)="navegar();"><i class="fa-solid fa-share"></i></button>
+                </td>
+            </tr>
+        </tbody>
+      </table>
+</div>
